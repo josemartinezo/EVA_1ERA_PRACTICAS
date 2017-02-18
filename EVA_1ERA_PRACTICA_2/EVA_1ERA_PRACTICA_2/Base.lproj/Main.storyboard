@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="EVA_1ERA_PRACTICA_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleAspectFit" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="uMj-iJ-eFW" userLabel="IMGStack View">
+                                <rect key="frame" x="20" y="57" width="560" height="191"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="resize340xesp00syyfbtmdsb(a)(a)c4c_1_0" translatesAutoresizingMaskIntoConstraints="NO" id="hUs-PV-jqF">
+                                        <rect key="frame" x="0.0" y="0.0" width="280" height="191"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CLGKltRVAAAmaTD.jpg-small" translatesAutoresizingMaskIntoConstraints="NO" id="wnN-iE-W5K">
+                                        <rect key="frame" x="280" y="0.0" width="280" height="191"/>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="Tvw-RF-Zfb">
+                                <rect key="frame" x="20" y="274" width="560" height="268"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oPw-eY-V0D">
+                                        <rect key="frame" x="0.0" y="0.0" width="280" height="268"/>
+                                        <string key="text">FordMustangEl Ford Mustang es un muscle car de la casa estadounidense Ford.Se basó inicialmente en la segunda generación del modelo estadounidenseFord Falcon, un vehículo del segmento D.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="32H-z8-fpj">
+                                        <rect key="frame" x="280" y="0.0" width="280" height="268"/>
+                                        <string key="text">Dodge ChallengerEl Dodge Challenger es un automóvil de tipo muscle car fabricado por la compañía automovilística estadounidense Dodge, del grupo Chrysler, desde 1970. Desde entonces, se han producido dos generaciones del Challenger.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="uMj-iJ-eFW" secondAttribute="trailing" id="73N-Or-DqT"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Tvw-RF-Zfb" secondAttribute="trailing" id="C11-24-9vL"/>
+                            <constraint firstItem="uMj-iJ-eFW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Lm7-px-lRb"/>
+                            <constraint firstItem="uMj-iJ-eFW" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="37" id="ZEX-D5-KxI"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Tvw-RF-Zfb" secondAttribute="bottom" constant="58" id="i0q-rf-xdk"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="uMj-iJ-eFW" secondAttribute="leading" id="rEQ-se-nkC"/>
+                            <constraint firstItem="Tvw-RF-Zfb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="sVV-Hq-Q1K"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="804" y="435"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="CLGKltRVAAAmaTD.jpg-small" width="340" height="191"/>
+        <image name="resize340xesp00syyfbtmdsb(a)(a)c4c_1_0" width="340" height="191"/>
+    </resources>
+</document>
